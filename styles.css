@@ -1,0 +1,270 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.tinder-img {
+  height: 3rem;
+  padding-right: 0.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.title-text {
+  padding-left: 0.6rem;
+  text-align: left;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 0 0;
+}
+
+/* Headings */
+
+.big-heading{
+  font-size: 3.55rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+/* Titile img */
+
+.title-img {
+  width: 22rem;
+  transform: rotate(25deg);
+  position: absolute;
+  padding: 0rem 1.5rem;
+  margin-left: 1.5rem;
+}
+
+/* Features section */
+
+.h3-title {
+  font-size: 2rem;
+}
+
+.icons {
+  font-size: 4rem;
+  position: relative;
+  color: #ef8172;
+  margin: auto;
+  text-align: center;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.parent-of-content {
+  text-align: center;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+.bottom-h3-title {
+  text-align: center;
+  color: #8f8f8f;
+  width: 150px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: white;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  width: ;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.pricing-title-txt {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.pricing-p-txt {
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 1.4rem;
+}
+
+.pricing-button {
+  margin: 2.5rem auto 0;
+  background-color: #ef8172;
+  border: none;
+  width: 17rem;
+  height: 3rem;
+  border-radius: 0.6rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.pricing-button:hover {
+  background-color: #ff4c68;
+  transition: 0.2s;
+  box-shadow: 0px 0px 9px #ef8172;
+}
+
+#pricing-button {
+  background-color: #ef8172;
+  border: none;
+  width: 17rem;
+  height: 3rem;
+  border-radius: 0.6rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+#pricing-button:hover {
+  background-color: #ff4c68;
+  transition: 0.2s;
+  box-shadow: 0px 0px 9px #ef8172;
+}
+
+.pricing-title {
+  margin: 0.5rem;
+  font-size: 2rem;
+}
+
+.card-header {
+  background-color: #ff4c68;
+}
+
+.card-body {
+  color: #8f8f8f;
+}
+
+.pricing-price {
+  color: black;
+}
+
+/* Call To Action */
+
+.calltoact-title {
+  color: white;
+  font-size: 5rem;
+  padding: 8rem 5rem 0rem;
+  margin: auto;
+  width: 85%;
+}
+
+#cta {
+  margin: 16rem auto 10rem;
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 10rem;
+}
+
+.btn-cta {
+  width: 19rem;
+  height: 5rem;
+  font-size: 2rem;
+}
+
+/* Footer */
+
+#footer {
+  font-size: 1.5rem;
+  text-align: center;
+  
+}
+
+.footer-icon {
+  font-size: 1.4rem;
+  color: black;
+}
+
+.bi-instagram {
+  margin: 0 1rem;
+}
+
+.bi-globe{
+  margin: 0 1rem;
+}
+
+.copyright {
+  color: #8f8f8f;
+  margin: 2rem auto 20rem;
+}
+
+@media (max-width: 1300px) {
+  .title-text{
+    text-align: center;
+    
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin: 0 auto 0;
+  }
+
+  .download-button{
+    margin-bottom: 3rem;
+  }
+
+}
+
